@@ -1,15 +1,20 @@
 <template>
   <div id="app">
 
-    Robot Clicker
+    <SideNav />
 
   </div>
 </template>
 
 <script>
 
+import SideNav from './components/SideNav';
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    SideNav
+  }
 }
 </script>
 
